@@ -1,0 +1,1521 @@
+[
+    {
+        "id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+        "type": "NaturaScan",
+        "date": 1716909039997,
+        "photo": null,
+        "naturascan": {
+            "zone": {
+                "id": 1,
+                "name": "Grand Large",
+                "nbre_points": 11,
+                "points": [
+                    {
+                        "id": 1,
+                        "name": "Point 01",
+                        "latitude_deg_min_sec": "43°30'14\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°30'14\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt01 -11-P",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 2,
+                        "name": "Point 02",
+                        "latitude_deg_min_sec": "43°27'07\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°27'07\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt02 -1O-O",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 3,
+                        "name": "Point 03",
+                        "latitude_deg_min_sec": "43°30'51\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°30'51\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt03 -9-N",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 4,
+                        "name": "Point 04",
+                        "latitude_deg_min_sec": "43°28'18\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°28'18\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt04 -8-K",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 5,
+                        "name": "Point 05",
+                        "latitude_deg_min_sec": "43°31'47\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°31'47\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt05 -7-L",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 6,
+                        "name": "Point 06",
+                        "latitude_deg_min_sec": "43°29'51\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°29'51\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt06-6-I",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 7,
+                        "name": "Point 07",
+                        "latitude_deg_min_sec": "43°32'36\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°32'36\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt07 -5-H",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 8,
+                        "name": "Point 08",
+                        "latitude_deg_min_sec": "43°30'47\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°30'47\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt08 -4-E",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 9,
+                        "name": "Point 09",
+                        "latitude_deg_min_sec": "43°33'20\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°33'20\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt09 -3-D",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 10,
+                        "name": "Point 10",
+                        "latitude_deg_min_sec": "43°31'49\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°31'49\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt10 -2-A",
+                        "zone_id": 1
+                    },
+                    {
+                        "id": 11,
+                        "name": "Point 11",
+                        "latitude_deg_min_sec": "43°38'31\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°38'31\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt11 -1-B",
+                        "zone_id": 1
+                    }
+                ]
+            },
+            "structure": null,
+            "port_depart": "Cotonou",
+            "port_arrivee": null,
+            "heure_depart_port": 1716909039997,
+            "heure_arrivee_port": 1716909167478,
+            "hauteur_bateau": 5.0,
+            "heure_debut_observation": null,
+            "heure_fin_observaton": null,
+            "duree_observation": null,
+            "duree_sortie": 127,
+            "responsable": [
+                {
+                    "id": "0bc4bb8d-e096-4e73-979a-7d78977e6676",
+                    "name": "Axel",
+                    "firstname": "Bernard",
+                    "email": "alice.brown@example.com",
+                    "mobile_number": "+111222333",
+                    "adress": "789 Elm Street, Villageton",
+                    "roles": [
+                        {
+                            "id": 1,
+                            "name": "Observateur",
+                            "description": "Administrator Role",
+                            "enabled": true,
+                            "isSysRole": true
+                        }
+                    ],
+                    "created_at": "2024-05-26T22:48:17.521399"
+                }
+            ],
+            "skipper": [
+                {
+                    "id": "22d22801-a4f8-4cf7-9ab0-6a4826b29591",
+                    "name": "Delphine",
+                    "firstname": "Lazreg",
+                    "email": "emma.taylor@example.com",
+                    "mobile_number": "+777888999",
+                    "adress": "555 Pine Street, Countryside",
+                    "roles": [
+                        {
+                            "id": 1,
+                            "name": "Observateur",
+                            "description": "Administrator Role",
+                            "enabled": true,
+                            "isSysRole": true
+                        }
+                    ],
+                    "created_at": "2024-05-26T22:48:17.525014"
+                }
+            ],
+            "photographe": [
+                {
+                    "id": "22d22801-a4f8-4cf7-9ab0-6a4826b29591",
+                    "name": "Delphine",
+                    "firstname": "Lazreg",
+                    "email": "emma.taylor@example.com",
+                    "mobile_number": "+777888999",
+                    "adress": "555 Pine Street, Countryside",
+                    "roles": [
+                        {
+                            "id": 1,
+                            "name": "Observateur",
+                            "description": "Administrator Role",
+                            "enabled": true,
+                            "isSysRole": true
+                        }
+                    ],
+                    "created_at": "2024-05-26T22:48:17.525014"
+                }
+            ],
+            "observateurs": [
+                {
+                    "id": "9915891e-2ae6-42af-860b-984cb3151c23",
+                    "name": "Bénédicte",
+                    "firstname": "Choux",
+                    "email": "david.johnson@example.com",
+                    "mobile_number": "+444555666",
+                    "adress": "321 Oak Avenue, Hamletville",
+                    "roles": [
+                        {
+                            "id": 1,
+                            "name": "Observateur",
+                            "description": "Administrator Role",
+                            "enabled": true,
+                            "isSysRole": true
+                        }
+                    ],
+                    "created_at": "2024-05-26T22:48:17.522002"
+                },
+                {
+                    "id": "0b1f5982-3a52-4431-9d97-8739a7079add",
+                    "name": "Clothide",
+                    "firstname": "Guerin",
+                    "email": "emma.taylor@example.com",
+                    "mobile_number": "+777888999",
+                    "adress": "555 Pine Street, Countryside",
+                    "roles": [
+                        {
+                            "id": 1,
+                            "name": "Observateur",
+                            "description": "Administrator Role",
+                            "enabled": true,
+                            "isSysRole": true
+                        }
+                    ],
+                    "created_at": "2024-05-26T22:48:17.524147"
+                }
+            ],
+            "other_user": null,
+            "nbre_observateurs": 5,
+            "type_bateau": "Navire ",
+            "nom_bateau": "Mon bateau ",
+            "heure_utc": null,
+            "distance_parcourue": null,
+            "remarque_depart": null,
+            "remarque_arrivee": null,
+            "superficie_echantillonnee": 0.05057289976228317,
+            "departure_weather_report": {
+                "id": "37b923a7-91a5-4988-98d6-b7f4185157f8",
+                "sea_state": {
+                    "id": 1,
+                    "nom": "Calme",
+                    "houle_min": 0.0,
+                    "houle_max": 0.1,
+                    "description": "Mer lisse, sans vagues."
+                },
+                "cloud_cover": {
+                    "id": 1,
+                    "nom": "Ciel dégagé",
+                    "pourcentage_min": 0.0,
+                    "pourcentage_max": 1.0,
+                    "description": "Pas de nuages visibles."
+                },
+                "visibility": {
+                    "id": 1,
+                    "nom": "Bonne",
+                    "description": "Visibilité inférieure à 2 km",
+                    "distance_min": 0,
+                    "distance_max": 2
+                },
+                "wind_force": {
+                    "id": 1,
+                    "min_speed": 0,
+                    "max_speed": 1,
+                    "description": "Pas de vent",
+                    "sea_effect": "Pas de vent",
+                    "wave_effect": "Pas de vent"
+                },
+                "wind_direction": {
+                    "id": 1,
+                    "nom_depart": "Pas de vent",
+                    "nom_arrivee": "",
+                    "abreviation": "",
+                    "angle_min": 337.5,
+                    "angle_max": 22.5
+                },
+                "wind_speed": {
+                    "id": 1,
+                    "min_speed": 0,
+                    "max_speed": 1,
+                    "description": "Pas de vent",
+                    "sea_effect": "Pas de vent",
+                    "wave_effect": "Pas de vent"
+                }
+            },
+            "arrival_weather_report": {
+                "id": "b9dcc317-b358-4ae6-8ee3-4481162b30a8",
+                "sea_state": {
+                    "id": 1,
+                    "nom": "Calme",
+                    "houle_min": 0.0,
+                    "houle_max": 0.1,
+                    "description": "Mer lisse, sans vagues."
+                },
+                "cloud_cover": {
+                    "id": 1,
+                    "nom": "Ciel dégagé",
+                    "pourcentage_min": 0.0,
+                    "pourcentage_max": 1.0,
+                    "description": "Pas de nuages visibles."
+                },
+                "visibility": {
+                    "id": 1,
+                    "nom": "Bonne",
+                    "description": "Visibilité inférieure à 2 km",
+                    "distance_min": 0,
+                    "distance_max": 2
+                },
+                "wind_force": {
+                    "id": 1,
+                    "min_speed": 0,
+                    "max_speed": 1,
+                    "description": "Pas de vent",
+                    "sea_effect": "Pas de vent",
+                    "wave_effect": "Pas de vent"
+                },
+                "wind_direction": {
+                    "id": 1,
+                    "nom_depart": "Pas de vent",
+                    "nom_arrivee": "",
+                    "abreviation": "",
+                    "angle_min": 337.5,
+                    "angle_max": 22.5
+                },
+                "wind_speed": {
+                    "id": 1,
+                    "min_speed": 0,
+                    "max_speed": 1,
+                    "description": "Pas de vent",
+                    "sea_effect": "Pas de vent",
+                    "wave_effect": "Pas de vent"
+                }
+            },
+            "marked": 1,
+            "etapes": [
+                {
+                    "id": "93bdb3f7-8c11-43d7-b877-72ed24cedfd1",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "nom": "",
+                    "description": "",
+                    "heure_depart_port": 1716909107870,
+                    "heure_arrivee_port": 1716909100904,
+                    "point_de_passage": {
+                        "id": 1,
+                        "name": "Point 01",
+                        "latitude_deg_min_sec": "43°30'14\"N",
+                        "latitude_deg_dec": null,
+                        "longitude_deg_min_sec": "43°30'14\"N",
+                        "longitude_deg_dec": null,
+                        "description": "Z1-Pt01 -11-P",
+                        "zone_id": 1
+                    },
+                    "departure_weather_report": {
+                        "id": "5fd8a6d3-8c8d-422c-9193-fb03b852d756",
+                        "sea_state": {
+                            "id": 1,
+                            "nom": "Calme",
+                            "houle_min": 0.0,
+                            "houle_max": 0.1,
+                            "description": "Mer lisse, sans vagues."
+                        },
+                        "cloud_cover": {
+                            "id": 1,
+                            "nom": "Ciel dégagé",
+                            "pourcentage_min": 0.0,
+                            "pourcentage_max": 1.0,
+                            "description": "Pas de nuages visibles."
+                        },
+                        "visibility": {
+                            "id": 1,
+                            "nom": "Bonne",
+                            "description": "Visibilité inférieure à 2 km",
+                            "distance_min": 0,
+                            "distance_max": 2
+                        },
+                        "wind_force": {
+                            "id": 1,
+                            "min_speed": 0,
+                            "max_speed": 1,
+                            "description": "Pas de vent",
+                            "sea_effect": "Pas de vent",
+                            "wave_effect": "Pas de vent"
+                        },
+                        "wind_direction": {
+                            "id": 1,
+                            "nom_depart": "Pas de vent",
+                            "nom_arrivee": "",
+                            "abreviation": "",
+                            "angle_min": 337.5,
+                            "angle_max": 22.5
+                        },
+                        "wind_speed": {
+                            "id": 1,
+                            "min_speed": 0,
+                            "max_speed": 1,
+                            "description": "Pas de vent",
+                            "sea_effect": "Pas de vent",
+                            "wave_effect": "Pas de vent"
+                        }
+                    },
+                    "arrival_weather_report": {
+                        "id": "739a4af5-87b9-4e35-8eb8-742c858b03ba",
+                        "sea_state": {
+                            "id": 1,
+                            "nom": "Calme",
+                            "houle_min": 0.0,
+                            "houle_max": 0.1,
+                            "description": "Mer lisse, sans vagues."
+                        },
+                        "cloud_cover": {
+                            "id": 1,
+                            "nom": "Ciel dégagé",
+                            "pourcentage_min": 0.0,
+                            "pourcentage_max": 1.0,
+                            "description": "Pas de nuages visibles."
+                        },
+                        "visibility": {
+                            "id": 1,
+                            "nom": "Bonne",
+                            "description": "Visibilité inférieure à 2 km",
+                            "distance_min": 0,
+                            "distance_max": 2
+                        },
+                        "wind_force": {
+                            "id": 1,
+                            "min_speed": 0,
+                            "max_speed": 1,
+                            "description": "Pas de vent",
+                            "sea_effect": "Pas de vent",
+                            "wave_effect": "Pas de vent"
+                        },
+                        "wind_direction": {
+                            "id": 1,
+                            "nom_depart": "Pas de vent",
+                            "nom_arrivee": "",
+                            "abreviation": "",
+                            "angle_min": 337.5,
+                            "angle_max": 22.5
+                        },
+                        "wind_speed": {
+                            "id": 1,
+                            "min_speed": 0,
+                            "max_speed": 1,
+                            "description": "Pas de vent",
+                            "sea_effect": "Pas de vent",
+                            "wave_effect": "Pas de vent"
+                        }
+                    },
+                    "created_at": "2024-05-28T16:11:47.878221"
+                }
+            ],
+            "observations": [
+                {
+                    "id": "10beab76-6ce9-48c7-8b16-f664c2b47e81",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "categorie_id": 14,
+                    "date": 1716909157496,
+                    "type": 2,
+                    "animal": null,
+                    "bird": null,
+                    "waste": {
+                        "nature_deche": null,
+                        "estimated_size": null,
+                        "matiere": {
+                            "id": 84,
+                            "common_name": "Autre",
+                            "scientific_name": "Autre",
+                            "description": null,
+                            "category_id": 14
+                        },
+                        "color": null,
+                        "deche_peche": 0,
+                        "picked": 0,
+                        "heure_debut": 1716909152402,
+                        "location": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4376999
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543014
+                            }
+                        },
+                        "vitesse_navire": null,
+                        "images": null,
+                        "weather_report": {
+                            "id": "null",
+                            "sea_state": null,
+                            "cloud_cover": null,
+                            "visibility": null,
+                            "wind_force": null,
+                            "wind_direction": null,
+                            "wind_speed": null
+                        },
+                        "effort": false,
+                        "commentaires": null,
+                        "photos": false
+                    },
+                    "created_at": "2024-05-28T16:12:37.514210"
+                },
+                {
+                    "id": "a0349945-27e6-4bbc-ac95-71f21dc870bd",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "categorie_id": 13,
+                    "date": 1716909150998,
+                    "type": 0,
+                    "animal": {
+                        "espece": {
+                            "id": 70,
+                            "common_name": "Autre",
+                            "scientific_name": "Autre",
+                            "description": null,
+                            "category_id": 13
+                        },
+                        "taille": null,
+                        "nbre_estime": null,
+                        "nbre_mini": null,
+                        "nbre_maxi": null,
+                        "nbre_jeunes": null,
+                        "nbre_nouveau_ne": null,
+                        "structure_groupe": null,
+                        "sous_group": false,
+                        "nbre_sous_groupes": null,
+                        "nbre_indiv_sous_groupe": null,
+                        "comportement_surface": null,
+                        "vitesse": null,
+                        "reaction_bateau": null,
+                        "distance_estimee": null,
+                        "gisement": null,
+                        "element_detection": null,
+                        "especes_associees": null,
+                        "heure_debut": 1716909146834,
+                        "heure_fin": 1716909148346,
+                        "location_d": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4376999
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543014
+                            }
+                        },
+                        "location_f": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4376999
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543014
+                            }
+                        },
+                        "vitesse_navire": null,
+                        "weather_report": {
+                            "id": "null",
+                            "sea_state": null,
+                            "cloud_cover": null,
+                            "visibility": null,
+                            "wind_force": null,
+                            "wind_direction": null,
+                            "wind_speed": null
+                        },
+                        "activites_humaines_associees": null,
+                        "effort": false,
+                        "commentaires": null,
+                        "photos": false,
+                        "images": null
+                    },
+                    "bird": null,
+                    "waste": null,
+                    "created_at": "2024-05-28T16:12:31.000779"
+                },
+                {
+                    "id": "824538be-ef1b-44c1-9c45-b1ea2b07fd5d",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "categorie_id": 12,
+                    "date": 1716909143790,
+                    "type": 0,
+                    "animal": {
+                        "espece": {
+                            "id": 66,
+                            "common_name": "Autre",
+                            "scientific_name": "Autre",
+                            "description": null,
+                            "category_id": 12
+                        },
+                        "taille": null,
+                        "nbre_estime": null,
+                        "nbre_mini": null,
+                        "nbre_maxi": null,
+                        "nbre_jeunes": null,
+                        "nbre_nouveau_ne": null,
+                        "structure_groupe": null,
+                        "sous_group": false,
+                        "nbre_sous_groupes": null,
+                        "nbre_indiv_sous_groupe": null,
+                        "comportement_surface": null,
+                        "vitesse": null,
+                        "reaction_bateau": null,
+                        "distance_estimee": null,
+                        "gisement": null,
+                        "element_detection": null,
+                        "especes_associees": null,
+                        "heure_debut": 1716909137367,
+                        "heure_fin": 1716909138993,
+                        "location_d": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.437675
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543183
+                            }
+                        },
+                        "location_f": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.437675
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543183
+                            }
+                        },
+                        "vitesse_navire": null,
+                        "weather_report": {
+                            "id": "null",
+                            "sea_state": null,
+                            "cloud_cover": null,
+                            "visibility": null,
+                            "wind_force": null,
+                            "wind_direction": null,
+                            "wind_speed": null
+                        },
+                        "activites_humaines_associees": null,
+                        "effort": false,
+                        "commentaires": null,
+                        "photos": false,
+                        "images": null
+                    },
+                    "bird": null,
+                    "waste": null,
+                    "created_at": "2024-05-28T16:12:23.792867"
+                },
+                {
+                    "id": "0f587e75-0d72-40b0-b88f-abcfc47c9ce9",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "categorie_id": 11,
+                    "date": 1716909135450,
+                    "type": 0,
+                    "animal": {
+                        "espece": {
+                            "id": 95,
+                            "common_name": "Autre",
+                            "scientific_name": "Autre",
+                            "description": null,
+                            "category_id": 11
+                        },
+                        "taille": null,
+                        "nbre_estime": null,
+                        "nbre_mini": null,
+                        "nbre_maxi": null,
+                        "nbre_jeunes": null,
+                        "nbre_nouveau_ne": null,
+                        "structure_groupe": null,
+                        "sous_group": false,
+                        "nbre_sous_groupes": null,
+                        "nbre_indiv_sous_groupe": null,
+                        "comportement_surface": null,
+                        "vitesse": null,
+                        "reaction_bateau": null,
+                        "distance_estimee": null,
+                        "gisement": null,
+                        "element_detection": null,
+                        "especes_associees": null,
+                        "heure_debut": 1716909131811,
+                        "heure_fin": 1716909133240,
+                        "location_d": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.437725
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3542985
+                            }
+                        },
+                        "location_f": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.437725
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3542985
+                            }
+                        },
+                        "vitesse_navire": null,
+                        "weather_report": {
+                            "id": "null",
+                            "sea_state": null,
+                            "cloud_cover": null,
+                            "visibility": null,
+                            "wind_force": null,
+                            "wind_direction": null,
+                            "wind_speed": null
+                        },
+                        "activites_humaines_associees": null,
+                        "effort": false,
+                        "commentaires": null,
+                        "photos": false,
+                        "images": null
+                    },
+                    "bird": null,
+                    "waste": null,
+                    "created_at": "2024-05-28T16:12:15.452923"
+                },
+                {
+                    "id": "54320a60-ef45-4d9a-8629-b0c6519f99bc",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "categorie_id": 4,
+                    "date": 1716909129364,
+                    "type": 0,
+                    "animal": {
+                        "espece": {
+                            "id": 25,
+                            "common_name": "Autre",
+                            "scientific_name": "Autre",
+                            "description": null,
+                            "category_id": 4
+                        },
+                        "taille": null,
+                        "nbre_estime": null,
+                        "nbre_mini": null,
+                        "nbre_maxi": null,
+                        "nbre_jeunes": null,
+                        "nbre_nouveau_ne": null,
+                        "structure_groupe": null,
+                        "sous_group": false,
+                        "nbre_sous_groupes": null,
+                        "nbre_indiv_sous_groupe": null,
+                        "comportement_surface": null,
+                        "vitesse": null,
+                        "reaction_bateau": null,
+                        "distance_estimee": null,
+                        "gisement": null,
+                        "element_detection": null,
+                        "especes_associees": null,
+                        "heure_debut": 1716909123697,
+                        "heure_fin": 1716909126971,
+                        "location_d": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4376979
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.354302
+                            }
+                        },
+                        "location_f": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4376979
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.354302
+                            }
+                        },
+                        "vitesse_navire": null,
+                        "weather_report": {
+                            "id": "null",
+                            "sea_state": null,
+                            "cloud_cover": null,
+                            "visibility": null,
+                            "wind_force": null,
+                            "wind_direction": null,
+                            "wind_speed": null
+                        },
+                        "activites_humaines_associees": null,
+                        "effort": false,
+                        "commentaires": null,
+                        "photos": false,
+                        "images": null
+                    },
+                    "bird": null,
+                    "waste": null,
+                    "created_at": "2024-05-28T16:12:09.378911"
+                },
+                {
+                    "id": "a8a3e3c5-a305-4af4-9677-29ff5055597b",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "categorie_id": 2,
+                    "date": 1716909120925,
+                    "type": 1,
+                    "animal": null,
+                    "bird": {
+                        "espece": {
+                            "id": 44,
+                            "common_name": "Autre",
+                            "scientific_name": "Autre",
+                            "description": null,
+                            "category_id": 2
+                        },
+                        "nbre_estime": null,
+                        "presence_jeune": false,
+                        "etat_groupe": null,
+                        "comportement": null,
+                        "reaction_bateau": null,
+                        "distance_estimee": null,
+                        "especes_associees": null,
+                        "heure_debut": 1716909113695,
+                        "heure_fin": 1716909116502,
+                        "location_d": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4377018
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543035
+                            }
+                        },
+                        "location_f": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4377018
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543035
+                            }
+                        },
+                        "vitesse_navire": null,
+                        "weather_report": {
+                            "id": "null",
+                            "sea_state": null,
+                            "cloud_cover": null,
+                            "visibility": null,
+                            "wind_force": null,
+                            "wind_direction": null,
+                            "wind_speed": null
+                        },
+                        "activites_humaines_associees": null,
+                        "effort": false,
+                        "commentaires": null,
+                        "photos": false,
+                        "images": null
+                    },
+                    "waste": null,
+                    "created_at": "2024-05-28T16:12:00.939671"
+                }
+            ],
+            "gps": [
+                {
+                    "id": "10a8f559-c3d3-4b7a-bbe5-81079c0baa0a",
+                    "longitude": 2.4377003,
+                    "latitude": 6.3543012,
+                    "device": "GPS_device_1",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "inObservation": 1,
+                    "created_at": "2024-05-28T16:12:35.038188"
+                },
+                {
+                    "id": "809634c5-791a-4600-9e8b-a68514f580eb",
+                    "longitude": 2.4376979,
+                    "latitude": 6.354302,
+                    "device": "GPS_device_1",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "inObservation": 1,
+                    "created_at": "2024-05-28T16:12:06.045305"
+                },
+                {
+                    "id": "9e5056ed-effd-4c97-8ceb-b08784c748be",
+                    "longitude": 2.4377263,
+                    "latitude": 6.3542998,
+                    "device": "GPS_device_1",
+                    "shipping_id": "a27e9ba3-be55-448a-95af-f5d4daaa7bc3",
+                    "inObservation": 1,
+                    "created_at": "2024-05-28T16:11:37.072267"
+                }
+            ]
+        },
+        "obstrace": null,
+        "finished": 1,
+        "synchronised": 1,
+        "created_at": "2024-05-28T16:11:34.418126"
+    },
+    {
+        "id": "0753ddf8-0e05-4db9-8204-0c285febe51c",
+        "type": "Prospection",
+        "date": 1716916245014,
+        "photo": null,
+        "naturascan": null,
+        "obstrace": {
+            "prospection": {
+                "id": "a3a86771-7426-41ab-acf1-01269eafb4c8",
+                "secteur": {
+                    "id": 1,
+                    "name": "Secteur Frejus",
+                    "description": "Superbe Secteur",
+                    "sous_secteurs": [
+                        {
+                            "id": 1,
+                            "name": "St-Raphaël",
+                            "description": "",
+                            "plage": [
+                                {
+                                    "id": 1,
+                                    "name": "Anthéor",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Baumette",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Agay",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Pourrousset",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "Camp Long",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 6,
+                                    "name": "Aigue Bonne",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "Boulouris",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 8,
+                                    "name": "Veillat",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Fréjus",
+                            "description": "",
+                            "plage": [
+                                {
+                                    "id": 1,
+                                    "name": "Les Sablettes",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "République",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Capitole",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Plage Caouanne",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "Base Nature",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                },
+                                {
+                                    "id": 6,
+                                    "name": "Pacha",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "Argens",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                },
+                                {
+                                    "id": 8,
+                                    "name": "Esclamandes",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "name": "Roquebrune/Argens",
+                            "description": "",
+                            "plage": [
+                                {
+                                    "id": 1,
+                                    "name": "Gaillarde",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 3
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "San Peire",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 3
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Peiras",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 3
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Garonnette, base nautique",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "sous_secteur": {
+                    "id": 1,
+                    "name": "St-Raphaël",
+                    "description": "",
+                    "plage": [
+                        {
+                            "id": 1,
+                            "name": "Anthéor",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        {
+                            "id": 2,
+                            "name": "Baumette",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        {
+                            "id": 3,
+                            "name": "Agay",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        {
+                            "id": 4,
+                            "name": "Pourrousset",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        {
+                            "id": 5,
+                            "name": "Camp Long",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        {
+                            "id": 6,
+                            "name": "Aigue Bonne",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        {
+                            "id": 7,
+                            "name": "Boulouris",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        {
+                            "id": 8,
+                            "name": "Veillat",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        }
+                    ]
+                },
+                "plage": {
+                    "id": 1,
+                    "name": "Anthéor",
+                    "description": "Superbe Plage",
+                    "id_secteur": 1,
+                    "id_sous_secteur": 1
+                },
+                "mode": null,
+                "end1": {
+                    "longitude": {
+                        "deg_min_sec": "2° 26' 15\" E",
+                        "deg_dec": 2.437713
+                    },
+                    "latitude": {
+                        "deg_min_sec": "6° 21' 15\" N",
+                        "deg_dec": 6.3542982
+                    }
+                },
+                "end2": null,
+                "nbre_observateurs": null,
+                "referents": null,
+                "patrouilleurs": null,
+                "suivi": 0,
+                "heure_debut": 1716916245014,
+                "heure_fin": 1716916293145,
+                "duree_sortie": 48,
+                "weather_report": {
+                    "id": "6ebcfb7e-39a3-446a-9e0c-83fa424fd6e1",
+                    "sea_state": {
+                        "id": 1,
+                        "nom": "Calme",
+                        "houle_min": 0.0,
+                        "houle_max": 0.1,
+                        "description": "Mer lisse, sans vagues."
+                    },
+                    "cloud_cover": {
+                        "id": 1,
+                        "nom": "Ciel dégagé",
+                        "pourcentage_min": 0.0,
+                        "pourcentage_max": 1.0,
+                        "description": "Pas de nuages visibles."
+                    },
+                    "visibility": null,
+                    "wind_force": {
+                        "id": 1,
+                        "min_speed": 0,
+                        "max_speed": 1,
+                        "description": "Pas de vent",
+                        "sea_effect": "Pas de vent",
+                        "wave_effect": "Pas de vent"
+                    },
+                    "wind_direction": null,
+                    "wind_speed": {
+                        "id": 1,
+                        "min_speed": 0,
+                        "max_speed": 1,
+                        "description": "Pas de vent",
+                        "sea_effect": "Pas de vent",
+                        "wave_effect": "Pas de vent"
+                    }
+                },
+                "traces": [
+                    {
+                        "id": "ab258a97-57c9-43e0-9d6f-46dba10c5c81",
+                        "secteur": {
+                            "id": 1,
+                            "name": "Secteur Frejus",
+                            "description": "Superbe Secteur",
+                            "sous_secteurs": [
+                                {
+                                    "id": 1,
+                                    "name": "St-Raphaël",
+                                    "description": "",
+                                    "plage": [
+                                        {
+                                            "id": 1,
+                                            "name": "Anthéor",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Baumette",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        },
+                                        {
+                                            "id": 3,
+                                            "name": "Agay",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        },
+                                        {
+                                            "id": 4,
+                                            "name": "Pourrousset",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        },
+                                        {
+                                            "id": 5,
+                                            "name": "Camp Long",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        },
+                                        {
+                                            "id": 6,
+                                            "name": "Aigue Bonne",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        },
+                                        {
+                                            "id": 7,
+                                            "name": "Boulouris",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        },
+                                        {
+                                            "id": 8,
+                                            "name": "Veillat",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Fréjus",
+                                    "description": "",
+                                    "plage": [
+                                        {
+                                            "id": 1,
+                                            "name": "Les Sablettes",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "République",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        },
+                                        {
+                                            "id": 3,
+                                            "name": "Capitole",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        },
+                                        {
+                                            "id": 4,
+                                            "name": "Plage Caouanne",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        },
+                                        {
+                                            "id": 5,
+                                            "name": "Base Nature",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        },
+                                        {
+                                            "id": 6,
+                                            "name": "Pacha",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        },
+                                        {
+                                            "id": 7,
+                                            "name": "Argens",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        },
+                                        {
+                                            "id": 8,
+                                            "name": "Esclamandes",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Roquebrune/Argens",
+                                    "description": "",
+                                    "plage": [
+                                        {
+                                            "id": 1,
+                                            "name": "Gaillarde",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 3
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "San Peire",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 3
+                                        },
+                                        {
+                                            "id": 3,
+                                            "name": "Peiras",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 3
+                                        },
+                                        {
+                                            "id": 4,
+                                            "name": "Garonnette, base nautique",
+                                            "description": "Superbe Plage",
+                                            "id_secteur": 1,
+                                            "id_sous_secteur": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "sous_secteur": {
+                            "id": 1,
+                            "name": "St-Raphaël",
+                            "description": "",
+                            "plage": [
+                                {
+                                    "id": 1,
+                                    "name": "Anthéor",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Baumette",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Agay",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Pourrousset",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "Camp Long",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 6,
+                                    "name": "Aigue Bonne",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "Boulouris",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                },
+                                {
+                                    "id": 8,
+                                    "name": "Veillat",
+                                    "description": "Superbe Plage",
+                                    "id_secteur": 1,
+                                    "id_sous_secteur": 1
+                                }
+                            ]
+                        },
+                        "plage": {
+                            "id": 1,
+                            "name": "Anthéor",
+                            "description": "Superbe Plage",
+                            "id_secteur": 1,
+                            "id_sous_secteur": 1
+                        },
+                        "suivi": 0,
+                        "heure": 1716916277903,
+                        "weather_report": {
+                            "id": "c4da64a0-cb74-4c63-9de2-a66319c59760",
+                            "sea_state": null,
+                            "cloud_cover": null,
+                            "visibility": null,
+                            "wind_force": null,
+                            "wind_direction": null,
+                            "wind_speed": null
+                        },
+                        "remark": null,
+                        "location": {
+                            "longitude": {
+                                "deg_min_sec": "2° 26' 15\" E",
+                                "deg_dec": 2.4376882
+                            },
+                            "latitude": {
+                                "deg_min_sec": "6° 21' 15\" N",
+                                "deg_dec": 6.3543084
+                            }
+                        },
+                        "presence_nid": {
+                            "presence_nid": 1,
+                            "date": 1716916268920
+                        },
+                        "emergence": {
+                            "emergence": 1,
+                            "date_debut": 1716916272936,
+                            "date_fin": 1716916272936,
+                            "remark": null
+                        },
+                        "esclavation": {
+                            "esclavation": 1,
+                            "date_debut": 1716916276157,
+                            "date_fin": 1716916276157,
+                            "remark": null
+                        },
+                        "photos": null,
+                        "prospection_id": "a3a86771-7426-41ab-acf1-01269eafb4c8",
+                        "shipping_id": "0753ddf8-0e05-4db9-8204-0c285febe51c",
+                        "created_at": "2024-05-28T18:10:54.541281"
+                    }
+                ],
+                "remark1": null,
+                "remark2": null,
+                "gps": [
+                    {
+                        "id": "0a3ef193-c896-472e-959a-9fd6f2d3d1cf",
+                        "longitude": 2.4376753,
+                        "latitude": 6.3543174,
+                        "device": "GPS_device_1",
+                        "shipping_id": "0753ddf8-0e05-4db9-8204-0c285febe51c",
+                        "inObservation": 1,
+                        "created_at": "2024-05-28T18:11:28.157812"
+                    },
+                    {
+                        "id": "f996e7c9-3cee-438d-89d6-772ddc9c16fe",
+                        "longitude": 2.4376745,
+                        "latitude": 6.3543169,
+                        "device": "GPS_device_1",
+                        "shipping_id": "0753ddf8-0e05-4db9-8204-0c285febe51c",
+                        "inObservation": 1,
+                        "created_at": "2024-05-28T18:11:19.634951"
+                    },
+                    {
+                        "id": "fa4d846f-d39e-4b83-8a19-884fd4bc0272",
+                        "longitude": 2.437713,
+                        "latitude": 6.3542982,
+                        "device": "GPS_device_1",
+                        "shipping_id": "0753ddf8-0e05-4db9-8204-0c285febe51c",
+                        "inObservation": 1,
+                        "created_at": "2024-05-28T18:10:48.860226"
+                    }
+                ]
+            },
+            "traces": null
+        },
+        "finished": 1,
+        "synchronised": 1,
+        "created_at": "2024-05-28T18:10:48.647444"
+    }
+]
