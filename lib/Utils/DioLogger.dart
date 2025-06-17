@@ -17,7 +17,7 @@ class DioLogger{
   static void onSuccess(String tag, Response response){
     print('$tag - Response Path : [${response.requestOptions.method}] ${response.requestOptions.baseUrl}${response.requestOptions.path} Request Data : ${response.requestOptions.data.toString()}');
     print('$tag - Response statusCode : ${response.statusCode}');
-    print('$tag - Response data : ${response.data}');
+    // print('$tag - Response data : ${response.data}');
     //log("$tag - Response data"+jsonEncode(response.data));
 
   }

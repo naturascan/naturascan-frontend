@@ -15,8 +15,28 @@ import 'package:naturascan/controllers/zoneController.dart';
 
 import 'controllers/sortieController.dart';
 
+import 'package:flutter/foundation.dart'; 
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart'; 
+import 'package:sqflite/sqflite.dart'; 
+
+
 Future<void> main() async {
   await GetStorage.init();
+  WidgetsFlutterBinding.ensureInitialized(); 
+  if (kIsWeb) {
+    // Pour le web, initialisez le factory FFI
+    databaseFactory = databaseFactoryFfiWeb; 
+    // GoogleMapsFlutterPlatform.instance = GoogleMapsFlutterPlugin();
+
+  } else if (defaultTargetPlatform == TargetPlatform.windows ||
+             defaultTargetPlatform == TargetPlatform.linux ||
+             defaultTargetPlatform == TargetPlatform.macOS) {
+    // Pour le bureau, initialisez aussi le factory FFI
+    sqfliteFfiInit(); // Initialise le support FFI pour le bureau
+    databaseFactory = databaseFactoryFfi;
+  }
+
   runApp(const MyApp());
 }
 
