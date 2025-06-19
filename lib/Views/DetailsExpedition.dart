@@ -1235,7 +1235,7 @@ void getTime()async {
                                                     size: 15,
                                                   ),
                                                   Text(
-                                                    "  Aggrandir",
+                                                    "  Agrandir",
                                                     style: GoogleFonts.nunito(
                                                       color: Colors.black,
                                                     ),

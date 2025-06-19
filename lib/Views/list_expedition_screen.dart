@@ -119,7 +119,7 @@ class _ListExpeditionScreenState extends State<ListExpeditionScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          "Acceuil",
+          "Accueil",
           style: TextStyle(
               color: Constants.colorPrimary,
               fontWeight: FontWeight.bold,

@@ -43,7 +43,7 @@ class SortieModel {
         : ObstraceModel.fromJson(jsonDecode(json['obstrace']));
                    finished = json['finished'] == 0 ? false : true;
     synchronised = json['synchronised'] == 0 ? false : true;
-    print('jssonnn ${json['photo']}');
+    // print('jssonnn ${json['photo']}');
     createdAt = json['created_at'];
   }
 

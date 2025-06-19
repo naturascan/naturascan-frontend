@@ -849,7 +849,7 @@ class _ProspectionDetailsScreenState extends State<ProspectionDetailsScreen> {
                                                     size: 15,
                                                   ),
                                                   Text(
-                                                    "  Aggrandir",
+                                                    "  Agrandir",
                                                     style: GoogleFonts.nunito(
                                                       color: Colors.black,
                                                     ),

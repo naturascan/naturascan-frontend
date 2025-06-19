@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Constants{
-  static const baseUrl = "https://api-naturascan.norisix.com/api/";
+  static const baseUrl = "https://api-naturascan.lesaquanautes.eu/api/";
   static const colorPrimary = Colors.teal;
   static final textColor = Colors.grey.shade800;
   static const colorPrimaryDark = Colors.tealAccent;
