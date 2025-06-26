@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        title: 'naturascan',
+        title: 'SuiviTraces',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Constants.colorPrimary),
           useMaterial3: true,
