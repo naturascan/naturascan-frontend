@@ -695,7 +695,7 @@ final List<Secteur> secteurLists = [
       ),    
     ]
   ),
-   Secteur(
+  Secteur(
     id: 3,
     name: "Secteur Hyéres",
     description: "Superbe Secteur",
@@ -1486,7 +1486,7 @@ final List<Secteur> secteurLists = [
       )
     ]
   ),
-    Secteur(
+  Secteur(
     id: 5,
     name: "Secteur ST Cyr sur Mer",
     description: "",
@@ -1608,6 +1608,308 @@ final List<Secteur> secteurLists = [
     ]
   ),
   
+  Secteur(
+    id: 6,
+    name: "Secteur Est Hérault Petite",
+    description: "",
+    sousSecteurs: [
+      SousSecteur(
+        id: 1,
+        name: "Camargue Gardoise ",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "L'Espiguette",
+                description: "Superbe Plage",
+                idSecteur: 6,
+                idSousSecteur: 1
+              ),
+        ]
+      ),
+      SousSecteur(
+        id: 2,
+        name: "Palavasiens ",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage anthropique - Zone 0 (ANT_00)",
+                description: "Superbe Plage",
+                idSecteur: 6,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 2,
+                name: "Plage anthropique - Zone 1 (ANT_01)",
+                description: "Superbe Plage",
+                idSecteur: 6,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 3,
+                name: "Plage naturelle - Zone 2 (NAT_02)",
+                description: "Superbe Plage",
+                idSecteur: 6,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 3,
+                name: "Plage naturelle - Zone 3 (NAT_03)",
+                description: "Superbe Plage",
+                idSecteur: 6,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 4,
+                name: "Plage naturelle - Zone 4 (NAT_04)",
+                description: "Superbe Plage",
+                idSecteur: 6,
+                idSousSecteur: 2
+              ),
+        ]
+      ),
 
+    ]
+    ),
+  Secteur(
+		id: 7,
+		name: "Secteur Ouest Hérault",
+		description: "",
+		sousSecteurs: [
+      SousSecteur(
+        id: 1,
+        name: "Thau",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage Baleine",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 2,
+                name: "Plage 3 Digues",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 3,
+                name: "Plage Jalabert",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 4,
+                name: "Plage Castellas",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 5,
+                name: "Plage Vassal",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 6,
+                name: "Plage Robinson",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 7,
+                name: "Marseillan Plage",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 1
+              ),
 
+        ]
+      ),
+      SousSecteur(
+        id: 2,
+        name: "Sérignan ",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Les Orpellières",
+                description: "Superbe Plage",
+                idSecteur: 7,
+                idSousSecteur: 2
+              ),
+          
+        ]
+      )
+    ]
+  ),
+  Secteur(
+		id: 8,
+		name: "Secteur Littoral Audois",
+		description: "",
+		sousSecteurs: [
+      SousSecteur(
+        id: 1,
+        name: "Fleury d'Aude ",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage naturelle des cabannes à La grande cosse",
+                description: "Superbe Plage",
+                idSecteur: 8,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 2,
+                name: "Plage naturelle de la grande cosse à Pissevaches",
+                description: "Superbe Plage",
+                idSecteur: 8,
+                idSousSecteur: 1
+              ),
+        ]
+      ),
+      SousSecteur(
+        id: 2,
+        name: "Gruissan",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage la  Vieille-Nouvelle Sud Rouet",
+                description: "Superbe Plage",
+                idSecteur: 8,
+                idSousSecteur: 2
+              ),
+        ]
+      ),
+      SousSecteur(
+        id: 3,
+        name: "Port-la-Nouvelle",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage de la Vieille Nouvelle",
+                description: "Superbe Plage",
+                idSecteur: 8,
+                idSousSecteur: 2
+              ),
+        ]
+      )
+    ]
+    ),
+  Secteur(
+		id: 9,
+		name: "Secteur Parc Naturel Marin ",
+		description: "",
+		sousSecteurs: [
+      SousSecteur(
+        id: 1,
+        name: "Torreilles ",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage naturiste Nord",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 2,
+                name: "Plage naturiste",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 3,
+                name: "Plage naturiste rive droite",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 1
+              ),
+        ]
+      ),
+     SousSecteur(
+        id: 2,
+        name: "Sainte-Marie la mer ",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage centre",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 2,
+                name: "Plage des épis",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 2
+              ),
+        ]
+      ),
+    SousSecteur(
+        id: 3,
+        name: "Canet-en-Roussillon",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Rive gauche Canet",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 3
+              ),
+          Plage(
+                id: 2,
+                name: "Plage du Lido ",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 3
+              ),
+          Plage(
+                id: 3,
+                name: "Plage Lido Sud",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 3
+              ),
+          Plage(
+                id: 4,
+                name: "Page Sud",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 3
+              ),
+        ]
+      ),
+      SousSecteur(
+        id: 4,
+        name: "Saint-Cyprien / Elne",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage d'Elne (Bocal du Tech)",
+                description: "Superbe Plage",
+                idSecteur: 9,
+                idSousSecteur: 4
+              ),
+        ]
+      )
+    ]
+  ),
 ];
