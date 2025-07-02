@@ -1949,4 +1949,145 @@ final List<Secteur> secteurLists = [
       )
     ]
   ),
+  Secteur(
+    id: 10,
+    name: "Secteur CAMARGUE",
+    description: "",
+    sousSecteurs: [
+      SousSecteur(
+        id: 1,
+        name: "Port St Louis",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage Gracieuse",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 1
+              ),
+          Plage(
+                id: 2,
+                name: "Plage Napoléon",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 1
+              )
+          
+        ]
+      ),
+      SousSecteur(
+        id: 2,
+        name: "Plage de Salins de Giraud",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage de Piémanson",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 2,
+                name: "Plage des salins de Giraud",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 3,
+                name: "Plage du phare de Beauduc au grau de la dent",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 2
+              ),
+          Plage(
+                id: 4,
+                name: "Plage de l'APPB au phare de Beauducc",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 2
+              ),
+        ]
+      ),
+      SousSecteur(
+        id: 3,
+        name: "Beauduc",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Zone de protection de biotope (APPB)",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 3
+              ),
+          Plage(
+                id: 2,
+                name: "Plage Centrale",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 3
+              ),
+          Plage(
+                id: 3,
+                name: "Plage Comtesse",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 3
+              ),
+        ]
+      ),
+      SousSecteur(
+        id: 4,
+        name: "Est Petit Rhône saintes",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage Réserve Nationale",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 4
+              ),
+          Plage(
+                id: 2,
+                name: "Plage Est",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 4
+              ),
+          Plage(
+                id: 3,
+                name: "Plages Urbaines",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 4
+              )
+        ]
+      ),
+      SousSecteur(
+        id: 5,
+        name: "Ouest petit Rhône",
+        description: "",
+        plage: [
+          Plage(
+                id: 1,
+                name: "Plage du Grand Radeau",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 5
+              ),
+          Plage(
+                id: 2,
+                name: "Plage Salins Saintes",
+                description: "Superbe Plage",
+                idSecteur: 10,
+                idSousSecteur: 5
+              ),
+        ]
+      )
+    ]
+  )
 ];
