@@ -1397,9 +1397,46 @@ final List<Secteur> secteurLists = [
                 description: "Superbe Plage",
                 idSecteur: 3,
                 idSousSecteur: 9
-              ),
+              ),   
             ]
+            
       ),
+      SousSecteur(
+            id: 10,
+            name: "Bormes les Mimosas",
+            description: "",
+            plage: [
+              Plage(
+                id: 1,
+                name: "Léoube",
+                description: "Superbe Plage",
+                idSecteur: 3,
+                idSousSecteur: 10
+              ),
+              Plage(
+                id: 2,
+                name: "Grand jardin",
+                description: "Superbe Plage",
+                idSecteur: 3,
+                idSousSecteur: 10
+              ),
+              Plage(
+                id: 3,
+                name: "Mère Dieu",
+                description: "Superbe Plage",
+                idSecteur: 3,
+                idSousSecteur: 10
+              ),
+              Plage(
+                id: 4,
+                name: "Vignasse",
+                description: "Superbe Plage",
+                idSecteur: 3,
+                idSousSecteur: 10
+              ),
+
+            ]
+            )
     ]
   ),
   Secteur(
